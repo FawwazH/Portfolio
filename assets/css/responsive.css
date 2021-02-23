@@ -434,6 +434,13 @@
     margin: 0 36px 0 0;
   }
 
+  .navbar-nav.navbar-right {
+    margin-right: -50px;
+    position: absolute;
+    left: 44%;
+    top: 28%;
+  }
+
   .hero .col-md-6:first-child {
     top: 38%;
     left: -2%;
