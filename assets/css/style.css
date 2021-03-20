@@ -196,11 +196,11 @@ body {
 }
 
 .navbar-nav > li {
-  color: grey;
+  color: black;
 }
 
 .navbar-nav > li > a {
-  color: grey;
+  color: black;
   padding: 5px 0;
   font-weight: 600;
   /* color: #212121; */
@@ -226,7 +226,7 @@ body {
 .nav > li > a:hover,
 .nav > li.active > a {
   background-color: transparent;
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid black;
 }
 
 .nav > li > a:focus {
@@ -236,12 +236,17 @@ body {
 /* HERO
 ================================================== */
 .hero {
-  background: url(../img/hero-1.jpg) no-repeat center / cover;
+  /* background: url(../img/hero-12.jpg) no-repeat center / cover;*/
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url(../img/hero-12.jpg);
   height: 100%;
   width: 100%;
   min-height: 700px;
   background-size: cover;
-  color: grey;
 }
 
 .hero .container {
